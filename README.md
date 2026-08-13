@@ -93,6 +93,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\setup_sherpa_aar.ps1
 
 ## 文档
 
+- [测试结果汇总](docs/TEST_RESULTS_SUMMARY.md)
 - [架构说明](docs/ARCHITECTURE.md)
 - [本地资源准备](docs/LOCAL_ASSETS.md)
 - [模型导入格式](docs/MODEL_IMPORT.md)
