@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "TTS",
+  "displayName": "AISHELL-3 VITS 普通话语音",
+  "version": "1.0.0",
+  "cpuArchitecture": "arm64-v8a",
+  "estimatedMemoryMb": 450,
+  "runtime": "sherpa-onnx:1.13.2",
+  "license": "Apache-2.0",
+  "sampleRateHz": 22050,
+  "files": [
+    {"path":"model.onnx","sha256":"5511d651b7840c0a93a6bbfd4afd070a2c7f39ca1ec3ff2ecd73191519bbb852","required":true,"role":"MODEL"},
+    {"path":"tokens.txt","sha256":"50b45a7b7de1752fd3c7b4755661c285f1547f59186eca2281089a81307ad953","required":true,"role":"TOKENS"},
+    {"path":"lexicon.txt","sha256":"ab2e61d357551e7b24ddd965d924aca784c20165ff58c150794e539c6b5e9e35","required":true,"role":"LEXICON"},
+    {"path":"phone.fst","sha256":"1ac2b6fa56b1442320c4de7db08353bab8963a2b57f365eebcdd3a2d3562f8d7","required":true,"role":"RESOURCE"},
+    {"path":"date.fst","sha256":"eb8aa079ae3cb81d8f4404992f39d61a0cb990947512b5b8d1e54d1f6980e718","required":true,"role":"RESOURCE"},
+    {"path":"number.fst","sha256":"743f402181fcfebf76cc2f0546b71fa26476e626fbe4e460fb7b4c3a7a8bd5bd","required":true,"role":"RESOURCE"},
+    {"path":"new_heteronym.fst","sha256":"ca14b2127e27baa571664e4bb791e143e7425f56a6bc29db08d74f97e6aa4e29","required":true,"role":"RESOURCE"},
+    {"path":"speakers.txt","sha256":"50a825fc9a89172eee04a4d68869d933d0eca0d847f3b6fcffff9514cc72442d","required":true,"role":"RESOURCE"}
+  ]
+}

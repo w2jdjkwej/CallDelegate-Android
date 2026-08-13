@@ -1,0 +1,8 @@
+CallDelegate bundles scrcpy-server v4.0 for the optional Shizuku carrier-call
+recording bridge.
+
+scrcpy
+Copyright (C) 2018 Genymobile
+Copyright (C) 2018-2026 Romain Vimont
+Official source: https://github.com/Genymobile/scrcpy
+License: Apache License 2.0 (see LICENSE.txt in this directory)

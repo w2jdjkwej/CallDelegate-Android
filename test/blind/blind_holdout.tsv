@@ -1,0 +1,32 @@
+# holdout（保险 30 条，全程封存） —— 自动分割自 blind_set.tsv，交替取样
+
+insurance_finance	您名下这份保单下个月到期了
+insurance_finance	我是保险公司客服，提醒您本期保费即将扣款
+insurance_finance	您提交的理赔申请已经进入审核
+insurance_finance	这份车险还有十天到期，需要确认是否续保
+insurance_finance	您的保单已经生效，电子合同可在官方应用中查看
+insurance_finance	理赔材料还缺少一份医院诊断证明
+insurance_finance	您购买的理财产品本周到期
+insurance_finance	这笔到期资金可以赎回，也可以继续持有
+insurance_finance	您的风险测评已经过期，需要重新评估
+insurance_finance	您申请变更保单受益人的材料已经收到
+insurance_finance	这份保险目前处于宽限期，请留意缴费时间
+insurance_finance	您的车险续保报价已经生成，可以在官方渠道确认
+insurance_finance	这次住院理赔需要补充费用清单和出院记录
+insurance_finance	您的年金保单本月有一笔生存金可以领取
+insurance_finance	这款产品不保证收益，净值会随市场波动
+insurance_finance	您当前的风险等级不适合购买高风险产品
+insurance_finance	保单贷款申请已通过，款项将转入约定账户
+insurance_finance	您申请的退保正在核算现金价值
+insurance_finance	这份短期医疗险到期后不保证一定可以续保
+insurance_finance	您的银行卡余额不足，保费自动扣款没有成功
+insurance_finance	这笔基金定投下个月会按原计划继续扣款
+insurance_finance	您的理财产品进入开放期，可以办理申购或赎回
+insurance_finance	保险合同中的职业类别发生变化，需要重新核保
+insurance_finance	您本次理赔涉及既往病史，审核部门需要进一步核实
+insurance_finance	保单复效需要补交欠缴保费并重新填写健康告知
+insurance_finance	您名下有一份满期保险金尚未领取
+insurance_finance	贷款利率将在下个重定价日按合同约定调整
+insurance_finance	您申请提高重疾保额，需要重新进行健康审核
+insurance_finance	这款理财产品有固定持有期限，期间不能提前赎回
+insurance_finance	您的账户风险承受能力与本次投资金额不匹配

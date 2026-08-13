@@ -1,0 +1,71 @@
+# Gradle and Android build output
+.gradle/
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.aar
+*.hprof
+hs_err_pid*.log
+replay_pid*.log
+
+# IDE and local machine configuration
+.idea/
+*.iml
+*.iws
+*.ipr
+local.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Local tools and agent state
+.agents/
+.android-user/
+.claude/
+.tmp/
+submit/
+device_screens/
+
+# Large runtime assets are intentionally not versioned.
+app/src/main/assets/models/**
+!app/src/main/assets/models/**/
+!app/src/main/assets/models/**/SOURCE.md
+!app/src/main/assets/models/**/README
+!app/src/main/assets/models/**/model_manifest.json
+app/src/main/assets/scrcpy-server-*
+app/src/main/assets/third_party/shizuku/*.apk
+core/ai/libs/*.aar
+
+# Recorded calls and generated evaluation output
+device-test-results/
+test/**/device-results/
+test/**/raw_device_results/
+test/**/wav-call-*/
+test/**/round*_results/
+*.wav
+*.ogg
+*.opus
+*.perfetto-trace
+*.trace
+*.log
+
+# Archives and local submission material
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+*.pptx
+
+# Python and operating-system noise
+**/__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

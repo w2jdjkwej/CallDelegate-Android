@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "type": "MOCK",
+  "displayName": "Built-in Mock Pipeline",
+  "version": "1.0.0",
+  "cpuArchitecture": "arm64-v8a",
+  "estimatedMemoryMb": 32,
+  "runtime": "mock",
+  "license": "MIT",
+  "sampleRateHz": 16000,
+  "files": []
+}

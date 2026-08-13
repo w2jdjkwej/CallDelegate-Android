@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 2,
+  "manifestVersion": "2026-08-02-v2-insurance-finance-36-16k-merged-corrected",
+  "cases": [
+    {
+      "caseId": "insurance_finance_001",
+      "wavFile": "wav/insurance_finance_001.wav",
+      "referenceText": "您好这里是保险公司的保单服务中心来电是确认您刚投保的医疗险是否已经收到电子保单",
+      "speechStartMs": 200,
+      "speechEndMs": 7990,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_002",
+      "wavFile": "wav/insurance_finance_002.wav",
+      "referenceText": "您的保单已经生效保障责任从今天零点开始计算",
+      "speechStartMs": 200,
+      "speechEndMs": 4330,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_003",
+      "wavFile": "wav/insurance_finance_003.wav",
+      "referenceText": "您名下的保险将在下个月到期请留意续保时间",
+      "speechStartMs": 200,
+      "speechEndMs": 4200,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_004",
+      "wavFile": "wav/insurance_finance_004.wav",
+      "referenceText": "您名下的医疗保险将在本月底到期想确认是否需要按照原方案继续办理续保",
+      "speechStartMs": 200,
+      "speechEndMs": 6510,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_005",
+      "wavFile": "wav/insurance_finance_005.wav",
+      "referenceText": "您本期保费还没有缴纳请在宽限期结束前完成缴费",
+      "speechStartMs": 200,
+      "speechEndMs": 4760,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_006",
+      "wavFile": "wav/insurance_finance_006.wav",
+      "referenceText": "您提交的理赔申请已经收到目前正在进行材料审核",
+      "speechStartMs": 200,
+      "speechEndMs": 4660,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_007",
+      "wavFile": "wav/insurance_finance_007.wav",
+      "referenceText": "您之前咨询的医疗保险报销范围已经核实当前方案包含住院医疗但不包含普通门诊费用",
+      "speechStartMs": 200,
+      "speechEndMs": 8060,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_008",
+      "wavFile": "wav/insurance_finance_008.wav",
+      "referenceText": "您之前咨询的养老保险方案已经整理完成想和您确认一下缴费期限和领取年龄",
+      "speechStartMs": 200,
+      "speechEndMs": 7010,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_009",
+      "wavFile": "wav/insurance_finance_009.wav",
+      "referenceText": "您持有的理财产品本周到期资金将在到期确认后返回账户",
+      "speechStartMs": 200,
+      "speechEndMs": 5620,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_010",
+      "wavFile": "wav/insurance_finance_010.wav",
+      "referenceText": "为了处理您提交的保障方案调整申请需要确认您这次更关注医疗保障还是养老金领取安排",
+      "speechStartMs": 200,
+      "speechEndMs": 8350,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_011",
+      "wavFile": "wav/insurance_finance_011.wav",
+      "referenceText": "您的保单受益人信息还没有补充请通过官方渠道完成登记",
+      "speechStartMs": 200,
+      "speechEndMs": 5280,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_012",
+      "wavFile": "wav/insurance_finance_012.wav",
+      "referenceText": "您上周申请的车险续保报价已经核算完成保费明细可以通过官方应用查看",
+      "speechStartMs": 200,
+      "speechEndMs": 6720,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_013",
+      "wavFile": "wav/insurance_finance_013.wav",
+      "referenceText": "您的保费扣款没有成功请检查绑定银行卡的状态",
+      "speechStartMs": 200,
+      "speechEndMs": 4380,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_014",
+      "wavFile": "wav/insurance_finance_014.wav",
+      "referenceText": "您购买的医疗险将在月底到期现在可以通过原保单页面办理续保",
+      "speechStartMs": 200,
+      "speechEndMs": 5810,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_015",
+      "wavFile": "wav/insurance_finance_015.wav",
+      "referenceText": "您的理赔材料还缺少诊断证明和费用清单请补充后继续审核",
+      "speechStartMs": 200,
+      "speechEndMs": 5740,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_016",
+      "wavFile": "wav/insurance_finance_016.wav",
+      "referenceText": "您持有的理财产品到期后可以选择赎回或者继续持有请在到期日前确认",
+      "speechStartMs": 200,
+      "speechEndMs": 7000,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_017",
+      "wavFile": "wav/insurance_finance_017.wav",
+      "referenceText": "您提交的重疾险保额调整申请已经受理想确认是否仍按照原申请增加十万元保额",
+      "speechStartMs": 200,
+      "speechEndMs": 7260,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_018",
+      "wavFile": "wav/insurance_finance_018.wav",
+      "referenceText": "您上次提交的理财产品申购申请还没有完成风险承受能力评估完成评估后才能继续办理",
+      "speechStartMs": 200,
+      "speechEndMs": 7560,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_019",
+      "wavFile": "wav/insurance_finance_019.wav",
+      "referenceText": "您购买的是基础医疗保障不包含住院津贴和长期护理责任",
+      "speechStartMs": 200,
+      "speechEndMs": 5210,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_020",
+      "wavFile": "wav/insurance_finance_020.wav",
+      "referenceText": "您咨询的年金保险退保问题已经核实中途退保只能按照合同现金价值结算可能低于已经缴纳的保费",
+      "speechStartMs": 200,
+      "speechEndMs": 9240,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_021",
+      "wavFile": "wav/insurance_finance_021.wav",
+      "referenceText": "您的保单处于宽限期内补缴保费后是否继续有效要以合同约定为准",
+      "speechStartMs": 200,
+      "speechEndMs": 6150,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_022",
+      "wavFile": "wav/insurance_finance_022.wav",
+      "referenceText": "您申请的医疗理赔中有一部分费用不在合同约定的责任范围内",
+      "speechStartMs": 200,
+      "speechEndMs": 4900,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_023",
+      "wavFile": "wav/insurance_finance_023.wav",
+      "referenceText": "您持有的基金近期波动较大想确认您的风险承受能力有没有变化",
+      "speechStartMs": 200,
+      "speechEndMs": 5680,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_024",
+      "wavFile": "wav/insurance_finance_024.wav",
+      "referenceText": "您准备申购的理财产品不承诺保本实际收益会随产品运作情况变化请确认已经了解相关风险",
+      "speechStartMs": 200,
+      "speechEndMs": 8820,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_025",
+      "wavFile": "wav/insurance_finance_025.wav",
+      "referenceText": "您的保险包含主险和两个附加险停止附加险不会自动终止主险",
+      "speechStartMs": 200,
+      "speechEndMs": 5640,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_026",
+      "wavFile": "wav/insurance_finance_026.wav",
+      "referenceText": "您之前设置了自动续保如需终止需要在扣款日前通过官方渠道提交申请",
+      "speechStartMs": 200,
+      "speechEndMs": 6890,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_027",
+      "wavFile": "wav/insurance_finance_027.wav",
+      "referenceText": "您购买的分红保险包含保证利益和非保证利益演示金额不代表最终领取金额",
+      "speechStartMs": 200,
+      "speechEndMs": 7150,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_028",
+      "wavFile": "wav/insurance_finance_028.wav",
+      "referenceText": "您提交的保障调整申请涉及储蓄型保险医疗险和意外险我们需要分别确认哪些保单需要变更",
+      "speechStartMs": 200,
+      "speechEndMs": 8840,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_029",
+      "wavFile": "wav/insurance_finance_029.wav",
+      "referenceText": "您持有的理财产品风险等级高于上次评估结果需要重新确认是否适合继续购买",
+      "speechStartMs": 200,
+      "speechEndMs": 7040,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_030",
+      "wavFile": "wav/insurance_finance_030.wav",
+      "referenceText": "您的保单可以申请降低保额来减少后续保费但保障金额也会同步下降",
+      "speechStartMs": 200,
+      "speechEndMs": 6500,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_031",
+      "wavFile": "wav/insurance_finance_031.wav",
+      "referenceText": "您的理赔申请已经通过初审不过最终赔付金额还需要结合免赔额和责任比例计算",
+      "speechStartMs": 200,
+      "speechEndMs": 7290,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_032",
+      "wavFile": "wav/insurance_finance_032.wav",
+      "referenceText": "您申请购买的理财产品已经进入风险确认环节页面展示的历史业绩不代表未来实际收益",
+      "speechStartMs": 200,
+      "speechEndMs": 7980,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_033",
+      "wavFile": "wav/insurance_finance_033.wav",
+      "referenceText": "您的保单现金价值低于已缴保费现在退保可能无法拿回全部本金",
+      "speechStartMs": 200,
+      "speechEndMs": 6340,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_034",
+      "wavFile": "wav/insurance_finance_034.wav",
+      "referenceText": "您名下有基金银行理财和年金保险不同产品的期限流动性和本金风险并不相同",
+      "speechStartMs": 200,
+      "speechEndMs": 7830,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_035",
+      "wavFile": "wav/insurance_finance_035.wav",
+      "referenceText": "您提交的保单查询申请已经受理请通过官方应用查看处理结果我们不会在电话中索要密码或短信验证码",
+      "speechStartMs": 200,
+      "speechEndMs": 9520,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "insurance_finance_036",
+      "wavFile": "wav/insurance_finance_036.wav",
+      "referenceText": "您这次咨询同时涉及续保保单贷款和理赔其中续保可以线上办理另外两项需要分别审核",
+      "speechStartMs": 200,
+      "speechEndMs": 8870,
+      "expectedScene": "INSURANCE_FINANCE",
+      "expectedEntities": {}
+    }
+  ]
+}

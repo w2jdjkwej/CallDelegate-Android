@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "manifestVersion": "2026-08-02-v1-real-estate-34-16k-standard",
+  "cases": [
+    {
+      "caseId": "real_estate_001",
+      "wavFile": "wav/real_estate_001.wav",
+      "referenceText": "您之前在我们门店登记过购房需求我想确认一下您近期是否还在考虑买房",
+      "speechStartMs": 200,
+      "speechEndMs": 6540,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_002",
+      "wavFile": "wav/real_estate_002.wav",
+      "referenceText": "您之前委托我们出租房屋我想确认一下目前是否仍需要继续寻找租客",
+      "speechStartMs": 200,
+      "speechEndMs": 6160,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_003",
+      "wavFile": "wav/real_estate_003.wav",
+      "referenceText": "您之前咨询的那套房子还在出售",
+      "speechStartMs": 200,
+      "speechEndMs": 2500,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_004",
+      "wavFile": "wav/real_estate_004.wav",
+      "referenceText": "根据您之前登记的两居室购房需求我们刚匹配到一套新的房源",
+      "speechStartMs": 200,
+      "speechEndMs": 5310,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_005",
+      "wavFile": "wav/real_estate_005.wav",
+      "referenceText": "您之前预约查看的那套房子周末可以看请问您哪段时间方便",
+      "speechStartMs": 200,
+      "speechEndMs": 5340,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_006",
+      "wavFile": "wav/real_estate_006.wav",
+      "referenceText": "房东今天晚上可以配合看房",
+      "speechStartMs": 200,
+      "speechEndMs": 2410,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_007",
+      "wavFile": "wav/real_estate_007.wav",
+      "referenceText": "您关注的小区刚挂出一套新房源",
+      "speechStartMs": 200,
+      "speechEndMs": 2900,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_008",
+      "wavFile": "wav/real_estate_008.wav",
+      "referenceText": "根据您的购房需求我们筛选的这套房子已经完成精装修目前可以直接入住",
+      "speechStartMs": 200,
+      "speechEndMs": 6170,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_009",
+      "wavFile": "wav/real_estate_009.wav",
+      "referenceText": "房东愿意在挂牌价基础上再谈",
+      "speechStartMs": 200,
+      "speechEndMs": 2600,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_010",
+      "wavFile": "wav/real_estate_010.wav",
+      "referenceText": "为了继续筛选您之前咨询的房源想确认一下您购房主要用于自住还是投资",
+      "speechStartMs": 200,
+      "speechEndMs": 6790,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_011",
+      "wavFile": "wav/real_estate_011.wav",
+      "referenceText": "根据您之前提交的购房需求我想再确认一下您对面积楼层和朝向的要求",
+      "speechStartMs": 200,
+      "speechEndMs": 6850,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_012",
+      "wavFile": "wav/real_estate_012.wav",
+      "referenceText": "您的房子有客户想看今晚七点方便吗",
+      "speechStartMs": 200,
+      "speechEndMs": 3660,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_013",
+      "wavFile": "wav/real_estate_013.wav",
+      "referenceText": "您之前说预算在一百五十万元左右我筛了三套比较接近的房源",
+      "speechStartMs": 200,
+      "speechEndMs": 5600,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_014",
+      "wavFile": "wav/real_estate_014.wav",
+      "referenceText": "您之前咨询的那套房源距离地铁口大约五百米附近还有商场和学校",
+      "speechStartMs": 200,
+      "speechEndMs": 6130,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_015",
+      "wavFile": "wav/real_estate_015.wav",
+      "referenceText": "您上次觉得楼层太低我又找到了一套同户型的高楼层房源",
+      "speechStartMs": 200,
+      "speechEndMs": 5180,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_016",
+      "wavFile": "wav/real_estate_016.wav",
+      "referenceText": "房东比较着急出售如果付款周期短价格还有协商空间",
+      "speechStartMs": 200,
+      "speechEndMs": 5120,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_017",
+      "wavFile": "wav/real_estate_017.wav",
+      "referenceText": "您咨询的两套房子一套面积大一些另一套总价更低",
+      "speechStartMs": 200,
+      "speechEndMs": 4940,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_018",
+      "wavFile": "wav/real_estate_018.wav",
+      "referenceText": "这套房子目前带租约出售租客合同到明年三月份到期",
+      "speechStartMs": 200,
+      "speechEndMs": 5080,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_019",
+      "wavFile": "wav/real_estate_019.wav",
+      "referenceText": "您登记的出租房源有人感兴趣对方想确认能不能养宠物",
+      "speechStartMs": 200,
+      "speechEndMs": 5330,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_020",
+      "wavFile": "wav/real_estate_020.wav",
+      "referenceText": "这套房子的产权证已经办理目前可以正常预约看房",
+      "speechStartMs": 200,
+      "speechEndMs": 4510,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_021",
+      "wavFile": "wav/real_estate_021.wav",
+      "referenceText": "您昨天看过的房子房东想了解您是否还有购买意向",
+      "speechStartMs": 200,
+      "speechEndMs": 4600,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_022",
+      "wavFile": "wav/real_estate_022.wav",
+      "referenceText": "您之前咨询的新楼盘样板间明天下午开放需要的话我可以按照原预约信息帮您登记",
+      "speechStartMs": 200,
+      "speechEndMs": 7700,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_023",
+      "wavFile": "wav/real_estate_023.wav",
+      "referenceText": "您要求必须带电梯我想再确认一下对房龄有没有限制",
+      "speechStartMs": 200,
+      "speechEndMs": 4920,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_024",
+      "wavFile": "wav/real_estate_024.wav",
+      "referenceText": "房东接受贷款购买但希望首付款不要低于总房款的百分之四十",
+      "speechStartMs": 200,
+      "speechEndMs": 5770,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_025",
+      "wavFile": "wav/real_estate_025.wav",
+      "referenceText": "这套房子挂牌价包含一个车位如果不要车位价格需要重新和业主协商",
+      "speechStartMs": 200,
+      "speechEndMs": 6610,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_026",
+      "wavFile": "wav/real_estate_026.wav",
+      "referenceText": "您准备出售的房子目前还有贷款需要先核对剩余本金和解押时间",
+      "speechStartMs": 200,
+      "speechEndMs": 6090,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_027",
+      "wavFile": "wav/real_estate_027.wav",
+      "referenceText": "这套房源平台上显示满五唯一但最终税费还要根据产权和家庭情况核算",
+      "speechStartMs": 200,
+      "speechEndMs": 6850,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_028",
+      "wavFile": "wav/real_estate_028.wav",
+      "referenceText": "您关注的房子有人交了意向金不过双方还没有正式签订买卖合同",
+      "speechStartMs": 200,
+      "speechEndMs": 5730,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_029",
+      "wavFile": "wav/real_estate_029.wav",
+      "referenceText": "房东同意降价五万元但希望家具家电不包含在成交价格里",
+      "speechStartMs": 200,
+      "speechEndMs": 5650,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_030",
+      "wavFile": "wav/real_estate_030.wav",
+      "referenceText": "您要求的学区条件需要向有关部门核实距离学校近不等于一定能够入学",
+      "speechStartMs": 200,
+      "speechEndMs": 6500,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_031",
+      "wavFile": "wav/real_estate_031.wav",
+      "referenceText": "这套房子实际使用面积比较大但部分空间没有计入产权登记面积",
+      "speechStartMs": 200,
+      "speechEndMs": 6100,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_032",
+      "wavFile": "wav/real_estate_032.wav",
+      "referenceText": "房屋目前由夫妻共同持有签约时需要两位产权人共同确认",
+      "speechStartMs": 200,
+      "speechEndMs": 5590,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_033",
+      "wavFile": "wav/real_estate_033.wav",
+      "referenceText": "这套房子可以马上入住不过地下室曾经出现过渗水已经维修过一次",
+      "speechStartMs": 200,
+      "speechEndMs": 6000,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "real_estate_034",
+      "wavFile": "wav/real_estate_034.wav",
+      "referenceText": "您的预算能够覆盖房款但加上税费中介费和装修费用后整体支出可能会超出",
+      "speechStartMs": 200,
+      "speechEndMs": 7640,
+      "expectedScene": "REAL_ESTATE",
+      "expectedEntities": {}
+    }
+  ]
+}

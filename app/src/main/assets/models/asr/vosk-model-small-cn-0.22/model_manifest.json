@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "ASR",
+  "displayName": "Vosk 普通话轻量模型",
+  "version": "0.22.0",
+  "cpuArchitecture": "arm64-v8a",
+  "estimatedMemoryMb": 300,
+  "runtime": "vosk:0.3.75",
+  "license": "Apache-2.0",
+  "sampleRateHz": 16000,
+  "files": [
+    {"path":"README","sha256":"7362be411c609f2a1c9d2dfe22c2d72555c15eb90bfe47c41772f49ef94840ce","required":true,"role":"NOTICE"},
+    {"path":"am/final.mdl","sha256":"91eda2c04c4f599361cb92b0e5298ccdf6b3c7a1fa52bfcefcd2c4e07aa1c131","required":true,"role":"MODEL"},
+    {"path":"graph/Gr.fst","sha256":"46d41a9b1723abccdcb354d731a5b58d87c060100d88ada1a3e31220f52b0434","required":true,"role":"VOCAB"},
+    {"path":"graph/disambig_tid.int","sha256":"c9200318c2a265549ebfbea7e0176fa62e131e953abd140c9b0b39fe61e24015","required":true,"role":"RESOURCE"},
+    {"path":"graph/HCLr.fst","sha256":"798af0d9ba6f2d727747f58e1e7b2305f8618bc8ea7f6c51beecd8a2c965b965","required":true,"role":"RESOURCE"},
+    {"path":"graph/phones/word_boundary.int","sha256":"11ca784b99f03188b451fb54714c2de3dd694e662a5f88e82df435c2789b9aec","required":true,"role":"RESOURCE"},
+    {"path":"ivector/online_cmvn.conf","sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","required":true,"role":"RESOURCE"},
+    {"path":"ivector/final.ie","sha256":"c39d46fbff04efb7baa9660ae7a728b0e2f35a4a1250b56ed3a599e26956df86","required":true,"role":"RESOURCE"},
+    {"path":"ivector/final.mat","sha256":"42706d88818070ea0d0182b4d11367ba52a13b9a2be45630f60858a422109ada","required":true,"role":"RESOURCE"},
+    {"path":"ivector/final.dubm","sha256":"e33276cbd548c0a03ae5812c98115940614997dff23a6d59968af6eaf7630ff8","required":true,"role":"RESOURCE"},
+    {"path":"ivector/splice.conf","sha256":"9f0c5f7c82d18eaf25d8bce470efa9f7741f88411fe428774bc0a9bb69a24756","required":true,"role":"RESOURCE"},
+    {"path":"ivector/global_cmvn.stats","sha256":"b267dc89c1556fdd5bc358f0a480929da1743eeccfa06a67daf8db629ca336bb","required":true,"role":"RESOURCE"},
+    {"path":"conf/mfcc.conf","sha256":"6c326fea5741c2d78be12f76eb1b36ea2ace040da9e355e4cfe6bb80e5f7d5ab","required":true,"role":"RESOURCE"},
+    {"path":"conf/model.conf","sha256":"468a8125c07530f96adcc219a0a5f993e8e0721ccf18acbd3169b77fc685fb9b","required":true,"role":"RESOURCE"}
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 2,
+  "manifestVersion": "2026-08-02-v2-ride-hailing-36-16k-complete",
+  "cases": [
+    {
+      "caseId": "ride_hailing_001",
+      "wavFile": "wav/ride_hailing_001.wav",
+     "referenceText": "您好我是接您的网约车司机已经接到您的订单了",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 4250,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_002",
+      "wavFile": "wav/ride_hailing_002.wav",
+     "referenceText": "我正在前往您设置的上车点预计三分钟后到达",
+      "expectedIntent": "driver_delay",
+      "speechStartMs": 200,
+      "speechEndMs": 3880,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_003",
+      "wavFile": "wav/ride_hailing_003.wav",
+     "referenceText": "我已经到达您设置的上车点请问您现在方便上车吗",
+      "expectedIntent": "driver_arrived",
+      "speechStartMs": 200,
+      "speechEndMs": 4480,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_004",
+      "wavFile": "wav/ride_hailing_004.wav",
+     "referenceText": "我已经到达小区南门的临时上客区正在这里等您",
+      "expectedIntent": "driver_arrived",
+      "speechStartMs": 200,
+      "speechEndMs": 4060,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_005",
+      "wavFile": "wav/ride_hailing_005.wav",
+     "referenceText": "我是接您这笔订单的司机车牌尾号是六八二一",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 4160,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_006",
+      "wavFile": "wav/ride_hailing_006.wav",
+     "referenceText": "我开的是一辆白色轿车已经停在上车点旁边",
+      "expectedIntent": "driver_arrived",
+      "speechStartMs": 200,
+      "speechEndMs": 3820,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_007",
+      "wavFile": "wav/ride_hailing_007.wav",
+     "referenceText": "我已经到达上车定位附近请确认是否能看到我的车辆",
+      "expectedIntent": "confirm_pickup_location",
+      "speechStartMs": 200,
+      "speechEndMs": 4700,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_008",
+      "wavFile": "wav/ride_hailing_008.wav",
+     "referenceText": "这边不能长时间停车请您准备好后尽快到上车点上车",
+      "expectedIntent": "urge_passenger",
+      "speechStartMs": 200,
+      "speechEndMs": 5130,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_009",
+      "wavFile": "wav/ride_hailing_009.wav",
+     "referenceText": "我看到您了正在向路边靠近请您注意车辆",
+      "expectedIntent": "driver_arrived",
+      "speechStartMs": 200,
+      "speechEndMs": 3930,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_010",
+      "wavFile": "wav/ride_hailing_010.wav",
+     "referenceText": "您设置的上车点在小区南门请确认您是否正在南门候车",
+      "expectedIntent": "confirm_pickup_location",
+      "speechStartMs": 200,
+      "speechEndMs": 5170,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_011",
+      "wavFile": "wav/ride_hailing_011.wav",
+     "referenceText": "您的上车定位有些偏请告诉我附近比较明显的建筑",
+      "expectedIntent": "confirm_pickup_location",
+      "speechStartMs": 200,
+      "speechEndMs": 4520,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_012",
+      "wavFile": "wav/ride_hailing_012.wav",
+     "referenceText": "我现在在您设置的上车点马路对面准备绕行到您这一侧接您",
+      "expectedIntent": "confirm_pickup_location",
+      "speechStartMs": 200,
+      "speechEndMs": 5120,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_013",
+      "wavFile": "wav/ride_hailing_013.wav",
+     "referenceText": "小区北门暂时封闭我改到东门接您可以吗",
+      "expectedIntent": "trip_exception",
+      "speechStartMs": 200,
+      "speechEndMs": 3970,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_014",
+      "wavFile": "wav/ride_hailing_014.wav",
+     "referenceText": "我堵在上车点前面的路口预计还要八分钟才能到达",
+      "expectedIntent": "driver_delay",
+      "speechStartMs": 200,
+      "speechEndMs": 4370,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_015",
+      "wavFile": "wav/ride_hailing_015.wav",
+     "referenceText": "我已经到达商场一号门停在出租车上客区旁边",
+      "expectedIntent": "driver_arrived",
+      "speechStartMs": 200,
+      "speechEndMs": 4410,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_016",
+      "wavFile": "wav/ride_hailing_016.wav",
+     "referenceText": "您设置的上车点是火车站南广场请确认您是否在南广场候车",
+      "expectedIntent": "confirm_pickup_location",
+      "speechStartMs": 200,
+      "speechEndMs": 5650,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_017",
+      "wavFile": "wav/ride_hailing_017.wav",
+     "referenceText": "您的上车点在机场二号航站楼请确认您是在出发层还是到达层等车",
+      "expectedIntent": "confirm_pickup_location",
+      "speechStartMs": 200,
+      "speechEndMs": 6590,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_018",
+      "wavFile": "wav/ride_hailing_018.wav",
+     "referenceText": "我已经进入地下停车场现在停在负一层电梯口旁边的上客区",
+      "expectedIntent": "driver_arrived",
+      "speechStartMs": 200,
+      "speechEndMs": 5060,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_019",
+      "wavFile": "wav/ride_hailing_019.wav",
+     "referenceText": "这条路正在施工车辆无法从正门进入我准备绕到后门接您",
+      "expectedIntent": "trip_exception",
+      "speechStartMs": 200,
+      "speechEndMs": 5640,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_020",
+      "wavFile": "wav/ride_hailing_020.wav",
+     "referenceText": "这里正在进行交通管制车辆不能进入我可以在前方便利店门口接您",
+      "expectedIntent": "trip_exception",
+      "speechStartMs": 200,
+      "speechEndMs": 5870,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_021",
+      "wavFile": "wav/ride_hailing_021.wav",
+     "referenceText": "雨比较大原来的上车点没有遮挡我停到商场地下车库入口等您",
+      "expectedIntent": "trip_exception",
+      "speechStartMs": 200,
+      "speechEndMs": 5820,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_022",
+      "wavFile": "wav/ride_hailing_022.wav",
+     "referenceText": "我已经在上车点等了几分钟但没有看到您请确认是否站在另一个出口",
+      "expectedIntent": "cannot_find_passenger",
+      "speechStartMs": 200,
+      "speechEndMs": 6030,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_023",
+      "wavFile": "wav/ride_hailing_023.wav",
+     "referenceText": "您的上车定位显示在高架桥上但我现在位于桥下辅路请告诉我您靠近哪个匝道口",
+      "expectedIntent": "ask_passenger_location",
+      "speechStartMs": 200,
+      "speechEndMs": 7310,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_024",
+      "wavFile": "wav/ride_hailing_024.wav",
+     "referenceText": "我不在医院正门而是在正门向东五十米的临时上客区车牌尾号是零二一七",
+      "expectedIntent": "confirm_pickup_location",
+      "speechStartMs": 200,
+      "speechEndMs": 7090,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_025",
+      "wavFile": "wav/ride_hailing_025.wav",
+     "referenceText": "您刚刚修改了上车点我需要掉头前往新的位置预计比原来晚五分钟到达",
+      "expectedIntent": "trip_exception",
+      "speechStartMs": 200,
+      "speechEndMs": 6670,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_026",
+      "wavFile": "wav/ride_hailing_026.wav",
+     "referenceText": "我接到的是手机号尾号三七五九的乘客请您确认一下避免上错车辆",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 6130,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_027",
+      "wavFile": "wav/ride_hailing_027.wav",
+     "referenceText": "您的订单目的地是人民广场请确认目的地是否正确",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 4880,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_028",
+      "wavFile": "wav/ride_hailing_028.wav",
+     "referenceText": "订单显示您要前往机场二号航站楼请确认是国内出发还是国际出发",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 6440,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_029",
+      "wavFile": "wav/ride_hailing_029.wav",
+     "referenceText": "目的地有两个同名门店请确认您去的是万达广场店还是人民路店",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 6060,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_030",
+      "wavFile": "wav/ride_hailing_030.wav",
+     "referenceText": "您的订单目的地是火车站但您刚才说要先去酒店取行李请先在平台增加途经点",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 7380,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_031",
+      "wavFile": "wav/ride_hailing_031.wav",
+     "referenceText": "您刚刚提出更改目的地请先在平台修改订单我再按照新的路线行驶",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 6260,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_032",
+      "wavFile": "wav/ride_hailing_032.wav",
+     "referenceText": "前往目的地可以走高速或者普通道路请问您更希望走哪一条路线",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 6080,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_033",
+      "wavFile": "wav/ride_hailing_033.wav",
+     "referenceText": "前往机场走高速大约能节省二十分钟但会产生高速通行费请确认是否走高速",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 7780,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_034",
+      "wavFile": "wav/ride_hailing_034.wav",
+     "referenceText": "您一共有几位乘客是否携带大件行李我需要确认车辆能否正常乘坐和装载",
+      "expectedIntent": "confirm_order_info",
+      "speechStartMs": 200,
+      "speechEndMs": 6990,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_035",
+      "wavFile": "wav/ride_hailing_035.wav",
+     "referenceText": "前往目的地的原路线因为交通事故封闭我准备改走环城路预计会多用十五分钟",
+      "expectedIntent": "trip_exception",
+      "speechStartMs": 200,
+      "speechEndMs": 6940,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "ride_hailing_036",
+      "wavFile": "wav/ride_hailing_036.wav",
+     "referenceText": "车辆刚刚出现故障暂时无法前往上车点接您我正在联系平台为您重新派车",
+      "expectedIntent": "trip_exception",
+      "speechStartMs": 200,
+      "speechEndMs": 7060,
+      "expectedScene": "RIDE_HAILING",
+      "expectedEntities": {}
+    }
+  ]
+}

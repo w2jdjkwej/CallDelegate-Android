@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "corpusId": "zh_cn_challenge_v1",
+  "language": "zh-CN",
+  "sourceType": "SYNTHETIC_TEXT",
+  "evidenceLevel": "SYNTHETIC_CHALLENGE",
+  "kind": "CHALLENGE",
+  "expectedTurnCaseCount": 32,
+  "expectedDialogueCaseCount": 0,
+  "turnCases": [
+    {
+      "id":"challenge_delivery_01",
+      "text":"不是推销，是顺丰快递，放在东门快递柜",
+      "expectedScene":"delivery",
+      "expectedIntent":"delivery_request",
+      "expectedSlots":{"location":"东门快递柜"},
+      "tags":["delivery","correction","negation"]
+    },
+    {
+      "id":"challenge_delivery_02",
+      "text":"外卖不用送上来，留在一楼前台，不用回电",
+      "expectedScene":"delivery",
+      "expectedIntent":"delivery_request",
+      "expectedSlots":{"location":"一楼前台","callbackNeeded":"false"},
+      "tags":["delivery","multi_intent","negation"]
+    },
+    {
+      "id":"challenge_delivery_03",
+      "text":"骑手说进不去，电话一三八零零一三八零零零",
+      "expectedScene":"delivery",
+      "expectedIntent":"delivery_access_blocked",
+      "tags":["delivery","asr_like","spoken_number"]
+    },
+    {
+      "id":"challenge_delivery_04",
+      "text":"包裹送到门口，但先别告诉他我的身份证号",
+      "expectedScene":"delivery",
+      "expectedIntent":"delivery_request",
+      "expectedSlots":{"location":"门口"},
+      "tags":["delivery","sensitive_info","privacy"]
+    },
+
+    {
+      "id":"challenge_spam_risk_01",
+      "text":"我不是要办卡，是想介绍贷款优惠",
+      "expectedScene":"spam_risk",
+      "expectedIntent":"marketing_pitch",
+      "tags":["spam_risk","correction","negation"]
+    },
+    {
+      "id":"challenge_spam_risk_02",
+      "text":"免费体验课程，不需要回电话",
+      "expectedScene":"spam_risk",
+      "expectedIntent":"marketing_pitch",
+      "expectedSlots":{"callbackNeeded":"false"},
+      "tags":["spam_risk","multi_intent","negation"]
+    },
+    {
+      "id":"challenge_spam_risk_03",
+      "text":"我们是安心保险公司，专属福利只保留今天",
+      "expectedScene":"insurance_finance",
+      "expectedIntent":"insurance_marketing",
+      "expectedSlots":{"organization":"安心保险公司"},
+      "tags":["spam_risk","organization","time_pressure"]
+    },
+    {
+      "id":"challenge_spam_risk_04",
+      "text":"投资方案和保险都可以聊",
+      "expectedScene":"spam_risk",
+      "expectedIntent":"marketing_pitch",
+      "tags":["spam_risk","multi_intent","colloquial"]
+    },
+
+    {
+      "id":"challenge_work_01",
+      "text":"不是快递，是公司项目会议通知",
+      "expectedScene":"work",
+      "expectedIntent":"work_notice",
+      "tags":["work","cross_scene","correction"]
+    },
+    {
+      "id":"challenge_work_02",
+      "text":"会议改到下午三点，不是上午十点",
+      "expectedScene":"work",
+      "expectedIntent":"work_notice",
+      "expectedSlots":{"time":"下午三点"},
+      "tags":["work","correction","time"]
+    },
+    {
+      "id":"challenge_work_03",
+      "text":"这个项目不紧急但需要回电",
+      "expectedScene":"work",
+      "expectedIntent":"work_notice",
+      "expectedSlots":{"urgent":"false","callbackNeeded":"true"},
+      "tags":["work","multi_intent","negation"]
+    },
+    {
+      "id":"challenge_work_04",
+      "text":"我是研发部李明，手机号13800138000，马上处理",
+      "expectedScene":"work",
+      "expectedIntent":"work_notice",
+      "expectedSlots":{"organization":"研发部","callerIdentity":"李明","contact":"13800138000","urgent":"true"},
+      "tags":["work","identity","sensitive_info"]
+    },
+
+    {
+      "id":"challenge_unknown_01",
+      "text":"请问是不是张先生本人，我只核对身份证号码",
+      "expectedScene":"unknown_identity",
+      "expectedIntent":"identity_inquiry",
+      "tags":["unknown_identity","sensitive_info","privacy"]
+    },
+    {
+      "id":"challenge_unknown_02",
+      "text":"我不认识他，哪位，什么事情",
+      "expectedScene":"unknown_identity",
+      "expectedIntent":"identity_inquiry",
+      "tags":["unknown_identity","negation","colloquial"]
+    },
+    {
+      "id":"challenge_unknown_03",
+      "text":"我是物业公司王强，想问门禁密码",
+      "expectedScene":"unknown_identity",
+      "expectedIntent":"identity_inquiry",
+      "expectedSlots":{"organization":"物业公司","callerIdentity":"王强"},
+      "tags":["unknown_identity","identity","sensitive_info"]
+    },
+    {
+      "id":"challenge_unknown_04",
+      "text":"请联系我但不要透露机主地址",
+      "expectedScene":"unknown_identity",
+      "expectedIntent":"identity_inquiry",
+      "expectedSlots":{"callbackNeeded":"true"},
+      "tags":["unknown_identity","callback","privacy"]
+    },
+
+    {
+      "id":"seed_ride_hailing_01",
+      "text":"滴滴司机已经到小区门口",
+      "expectedScene":"ride_hailing",
+      "expectedIntent":"ride_arrival",
+
+      "tags":["ride_hailing","seed_scene"]
+    },
+    {
+      "id":"seed_ride_hailing_02",
+      "text":"网约车找不到上车点",
+      "expectedScene":"ride_hailing",
+      "expectedIntent":"ride_location_issue",
+
+      "tags":["ride_hailing","seed_scene"]
+    },
+    {
+      "id":"seed_ride_hailing_03",
+      "text":"乘客还要多久下来",
+      "expectedScene":"ride_hailing",
+      "expectedIntent":"ride_waiting",
+
+      "tags":["ride_hailing","seed_scene"]
+    },
+    {
+      "id":"seed_ride_hailing_04",
+      "text":"司机说订单快要取消了",
+      "expectedScene":"ride_hailing",
+      "expectedIntent":"ride_cancellation",
+
+      "tags":["ride_hailing","seed_scene","urgent"]
+    },
+
+    {
+      "id":"seed_customer_service_01",
+      "text":"客服来电确认售后退款",
+      "expectedScene":"customer_service",
+      "expectedIntent":"after_sales",
+
+      "tags":["customer_service","seed_scene"]
+    },
+    {
+      "id":"seed_customer_service_02",
+      "text":"订单缺货需要更换商品",
+      "expectedScene":"customer_service",
+      "expectedIntent":"order_change",
+
+      "tags":["customer_service","seed_scene"]
+    },
+    {
+      "id":"seed_customer_service_03",
+      "text":"平台客服核实投诉内容",
+      "expectedScene":"customer_service",
+      "expectedIntent":"complaint_followup",
+
+      "tags":["customer_service","seed_scene"]
+    },
+    {
+      "id":"seed_customer_service_04",
+      "text":"售后说退款原路返回",
+      "expectedScene":"customer_service",
+      "expectedIntent":"refund_notice",
+
+      "tags":["customer_service","seed_scene"]
+    },
+
+    {
+      "id":"seed_real_estate_01",
+      "text":"房产中介想约周末看房",
+      "expectedScene":"real_estate",
+      "expectedIntent":"viewing_request",
+
+      "tags":["real_estate","seed_scene"]
+    },
+    {
+      "id":"seed_real_estate_02",
+      "text":"房东通知下个月调整房租",
+      "expectedScene":"real_estate",
+      "expectedIntent":"rent_notice",
+
+      "tags":["real_estate","seed_scene"]
+    },
+    {
+      "id":"seed_real_estate_03",
+      "text":"物业要确认房屋维修时间",
+      "expectedScene":"real_estate",
+      "expectedIntent":"property_maintenance",
+
+      "tags":["real_estate","seed_scene"]
+    },
+    {
+      "id":"seed_real_estate_04",
+      "text":"租客想续签租房合同",
+      "expectedScene":"real_estate",
+      "expectedIntent":"lease_renewal",
+
+      "tags":["real_estate","seed_scene"]
+    },
+
+    {
+      "id":"seed_insurance_finance_01",
+      "text":"保险公司来电核实理赔材料",
+      "expectedScene":"insurance_finance",
+      "expectedIntent":"claim_verification",
+
+      "tags":["insurance_finance","seed_scene"]
+    },
+    {
+      "id":"seed_insurance_finance_02",
+      "text":"银行通知贷款还款日变更",
+      "expectedScene":"insurance_finance",
+      "expectedIntent":"repayment_notice",
+
+      "tags":["insurance_finance","seed_scene"]
+    },
+    {
+      "id":"seed_insurance_finance_03",
+      "text":"信用卡账单存在一笔异常消费",
+      "expectedScene":"insurance_finance",
+      "expectedIntent":"transaction_alert",
+
+      "tags":["insurance_finance","seed_scene","sensitive_info"]
+    },
+    {
+      "id":"seed_insurance_finance_04",
+      "text":"理赔专员需要补充住院证明",
+      "expectedScene":"insurance_finance",
+      "expectedIntent":"claim_document_request",
+
+      "tags":["insurance_finance","seed_scene","sensitive_info"]
+    }
+  ],
+  "dialogueCases": []
+}

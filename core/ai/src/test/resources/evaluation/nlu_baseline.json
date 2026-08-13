@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "corpora": [
+    {
+      "corpusId": "zh_cn_regression_v1",
+      "knownFailures": [
+        {
+          "caseId": "reg_work_01",
+          "reason": "输入「工作安排」。曾以扩宽 work_notice 组合正则的方式修复，但那条正则的动作词是照着这几条失败样本选的，属于对着测试集调参，已按要求撤销。work 不在本轮优化范围（六大场景）内，留待用领域词汇而非样本反推的方式重做。"
+        },
+        {
+          "caseId": "reg_work_03",
+          "reason": "输入「项目评审」。与 reg_work_01 同源，同一次撤销。"
+        },
+        {
+          "caseId": "reg_dialogue_work_03",
+          "reason": "多轮「客户项目通知」开场后接连续识别失败。首轮因上述同一覆盖缺口未能锁定场景，重试耗尽后提前结束。"
+        }
+      ],
+      "metricFloors": {
+        "sceneAccuracy": 0.9423076923076923,
+        "intentAccuracy": 0.95,
+        "slotF1": 0.9743589743589743
+      }
+    },
+    {
+      "corpusId": "zh_cn_challenge_v1",
+      "knownFailures": [
+        {
+          "caseId": "challenge_work_03",
+          "reason": "输入「这个项目不紧急但需要回电」，期望 work/work_notice。句中唯一的工作信号是「项目」，要通过只能把「项目」提为核心关键词让它单独选中场景。challenge 是 holdout，对着它调参会使它失去发现过拟合的作用，故不改。"
+        }
+      ],
+      "metricFloors": {
+        "sceneAccuracy": 0.96875,
+        "intentAccuracy": 0.96875,
+        "slotF1": 1.0
+      }
+    }
+  ]
+}

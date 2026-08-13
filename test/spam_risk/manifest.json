@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 2,
+  "manifestVersion": "2026-08-01-v2-spam-risk-36-16k-standard",
+  "cases": [
+    {
+      "caseId": "spam_risk_001",
+      "wavFile": "wav/spam_risk_001.wav",
+      "referenceText": "您好需要办理贷款吗",
+      "speechStartMs": 200,
+      "speechEndMs": 2058,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_002",
+      "wavFile": "wav/spam_risk_002.wav",
+      "referenceText": "最近考虑买房吗",
+      "speechStartMs": 200,
+      "speechEndMs": 1521,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_003",
+      "wavFile": "wav/spam_risk_003.wav",
+      "referenceText": "我们这里有低价保险",
+      "speechStartMs": 200,
+      "speechEndMs": 1446,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_004",
+      "wavFile": "wav/spam_risk_004.wav",
+      "referenceText": "今天办卡可以享受优惠",
+      "speechStartMs": 200,
+      "speechEndMs": 1871,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_005",
+      "wavFile": "wav/spam_risk_005.wav",
+      "referenceText": "免费礼品需要了解一下吗",
+      "speechStartMs": 200,
+      "speechEndMs": 1990,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_006",
+      "wavFile": "wav/spam_risk_006.wav",
+      "referenceText": "我们的新楼盘正在做活动",
+      "speechStartMs": 200,
+      "speechEndMs": 1894,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_007",
+      "wavFile": "wav/spam_risk_007.wav",
+      "referenceText": "现在充值一千赠送五百",
+      "speechStartMs": 200,
+      "speechEndMs": 2176,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_008",
+      "wavFile": "wav/spam_risk_008.wav",
+      "referenceText": "您的号码被抽中可以领取奖品",
+      "speechStartMs": 200,
+      "speechEndMs": 2395,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_009",
+      "wavFile": "wav/spam_risk_009.wav",
+      "referenceText": "我们可以帮您快速提高信用额度",
+      "speechStartMs": 200,
+      "speechEndMs": 2420,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_010",
+      "wavFile": "wav/spam_risk_010.wav",
+      "referenceText": "这里有一款高收益理财产品推荐给您",
+      "speechStartMs": 200,
+      "speechEndMs": 3073,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_011",
+      "wavFile": "wav/spam_risk_011.wav",
+      "referenceText": "您最近有装修或者家具采购需求吗",
+      "speechStartMs": 200,
+      "speechEndMs": 2922,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_012",
+      "wavFile": "wav/spam_risk_012.wav",
+      "referenceText": "我们是教育机构想送您一次免费试听课",
+      "speechStartMs": 200,
+      "speechEndMs": 3368,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_013",
+      "wavFile": "wav/spam_risk_013.wav",
+      "referenceText": "您之前浏览过汽车现在这款车正在降价促销",
+      "speechStartMs": 200,
+      "speechEndMs": 4100,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_014",
+      "wavFile": "wav/spam_risk_014.wav",
+      "referenceText": "我们这里有内部房源价格比市场价低今天可以安排看房",
+      "speechStartMs": 200,
+      "speechEndMs": 4732,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_015",
+      "wavFile": "wav/spam_risk_015.wav",
+      "referenceText": "您符合贷款条件不需要抵押当天就可以放款",
+      "speechStartMs": 200,
+      "speechEndMs": 3996,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_016",
+      "wavFile": "wav/spam_risk_016.wav",
+      "referenceText": "只需要支付二十九元运费就能领取一台空气炸锅",
+      "speechStartMs": 200,
+      "speechEndMs": 4278,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "funds",
+        "riskReason": "request_transfer",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_017",
+      "wavFile": "wav/spam_risk_017.wav",
+      "referenceText": "您的积分今晚清零请尽快按照短信提示兑换",
+      "speechStartMs": 200,
+      "speechEndMs": 4183,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_018",
+      "wavFile": "wav/spam_risk_018.wav",
+      "referenceText": "我们不是推销只想做个简单回访顺便介绍一项会员权益",
+      "speechStartMs": 200,
+      "speechEndMs": 5096,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_019",
+      "wavFile": "wav/spam_risk_019.wav",
+      "referenceText": "您的电话套餐费用偏高现在可以免费升级到更优惠的套餐",
+      "speechStartMs": 200,
+      "speechEndMs": 4893,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_020",
+      "wavFile": "wav/spam_risk_020.wav",
+      "referenceText": "您的保险即将失效今天不处理就会自动产生新的费用",
+      "speechStartMs": 200,
+      "speechEndMs": 4662,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_021",
+      "wavFile": "wav/spam_risk_021.wav",
+      "referenceText": "您开通了一项直播服务不及时关闭每个月会扣两千元",
+      "speechStartMs": 200,
+      "speechEndMs": 4658,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_022",
+      "wavFile": "wav/spam_risk_022.wav",
+      "referenceText": "您的快递运输途中损坏我们可以为您办理三倍赔偿",
+      "speechStartMs": 200,
+      "speechEndMs": 4342,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_023",
+      "wavFile": "wav/spam_risk_023.wav",
+      "referenceText": "您购买的商品检测不合格需要通过指定页面申请退款",
+      "speechStartMs": 200,
+      "speechEndMs": 4704,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "unknown_channel",
+        "riskReason": "request_unknown_channel",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_024",
+      "wavFile": "wav/spam_risk_024.wav",
+      "referenceText": "您的信用卡出现异常消费请告诉我短信验证码以便取消交易",
+      "speechStartMs": 200,
+      "speechEndMs": 5411,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "sms_code",
+        "riskReason": "request_sms_code",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_025",
+      "wavFile": "wav/spam_risk_025.wav",
+      "referenceText": "您的会员已经自动续费我现在指导您打开手机银行办理退款",
+      "speechStartMs": 200,
+      "speechEndMs": 5285,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "banking_operation,billing_threat",
+        "riskReason": "guided_banking_operation,auto_billing_threat",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_026",
+      "wavFile": "wav/spam_risk_026.wav",
+      "referenceText": "这里是平台高级客服系统误把您设置成代理商不解除会持续扣费",
+      "speechStartMs": 200,
+      "speechEndMs": 6146,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_027",
+      "wavFile": "wav/spam_risk_027.wav",
+      "referenceText": "您有一笔百万医疗保险正在生效今晚十二点以后会自动扣款",
+      "speechStartMs": 200,
+      "speechEndMs": 5302,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_028",
+      "wavFile": "wav/spam_risk_028.wav",
+      "referenceText": "您的快递虽然显示签收但平台需要向您赔偿请先下载会议软件",
+      "speechStartMs": 200,
+      "speechEndMs": 5963,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "unknown_app",
+        "riskReason": "request_unknown_app",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_029",
+      "wavFile": "wav/spam_risk_029.wav",
+      "referenceText": "您的账户涉嫌异常交易请配合开启屏幕共享核查资金",
+      "speechStartMs": 200,
+      "speechEndMs": 5092,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "screen_share",
+        "riskReason": "request_screen_share",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_030",
+      "wavFile": "wav/spam_risk_030.wav",
+      "referenceText": "您的身份信息可能被别人注册了贷款账户现在为您转接公安部门",
+      "speechStartMs": 200,
+      "speechEndMs": 5616,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "authority_impersonation",
+        "riskReason": "impersonate_authority",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_031",
+      "wavFile": "wav/spam_risk_031.wav",
+      "referenceText": "这是最后一次通知逾期不处理会影响您的征信请立即联系工作人员",
+      "speechStartMs": 200,
+      "speechEndMs": 5952,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {}
+    },
+    {
+      "caseId": "spam_risk_032",
+      "wavFile": "wav/spam_risk_032.wav",
+      "referenceText": "我们不需要银行卡密码只要您报出验证码就能完成身份认证",
+      "speechStartMs": 200,
+      "speechEndMs": 4934,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "sms_code,password",
+        "riskReason": "request_sms_code,request_password",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_033",
+      "wavFile": "wav/spam_risk_033.wav",
+      "referenceText": "您的退款通道被冻结需要先转一笔保证金验证账户之后会全部返还",
+      "speechStartMs": 200,
+      "speechEndMs": 6351,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "funds",
+        "riskReason": "request_transfer",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_034",
+      "wavFile": "wav/spam_risk_034.wav",
+      "referenceText": "平台正在清退网课费用请进入指定群聊按照客服要求完成登记",
+      "speechStartMs": 200,
+      "speechEndMs": 5974,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "unknown_channel",
+        "riskReason": "request_unknown_channel",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_035",
+      "wavFile": "wav/spam_risk_035.wav",
+      "referenceText": "您之前投资的项目可以申请退款但必须先购买指定证券完成资金对冲",
+      "speechStartMs": 200,
+      "speechEndMs": 6219,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "investment_action,urgency_pressure",
+        "riskReason": "request_investment_action,urgency_pressure",
+        "riskLevel": "HIGH"
+      }
+    },
+    {
+      "caseId": "spam_risk_036",
+      "wavFile": "wav/spam_risk_036.wav",
+      "referenceText": "我们是受平台委托做权益确认不卖保险也不推荐理财您先说一下身份证后四位和开户银行",
+      "speechStartMs": 200,
+      "speechEndMs": 8446,
+      "expectedScene": "SPAM_RISK",
+      "expectedEntities": {
+        "sensitiveInfoType": "partial_identity",
+        "riskReason": "request_partial_identity",
+        "riskLevel": "HIGH"
+      }
+    }
+  ]
+}

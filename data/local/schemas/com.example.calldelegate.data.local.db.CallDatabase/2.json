@@ -1,0 +1,143 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "c0df4290bfd47a3f0096a14241cf0b6e",
+    "entities": [
+      {
+        "tableName": "call_records",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `callerName` TEXT, `callerNumber` TEXT NOT NULL, `sceneId` TEXT NOT NULL, `summary` TEXT NOT NULL, `structuredResultJson` TEXT NOT NULL, `transcriptJson` TEXT NOT NULL, `audioPath` TEXT, `startedAtMillis` INTEGER NOT NULL, `endedAtMillis` INTEGER NOT NULL, `status` TEXT NOT NULL, `inputMode` TEXT NOT NULL, `recognitionFailed` INTEGER NOT NULL, `takeoverRequested` INTEGER NOT NULL, `recordingIntegrity` TEXT NOT NULL DEFAULT 'LEGACY_UNVERIFIED', `recordingErrorCode` TEXT, `recordingErrorMessage` TEXT, `playbackErrorCode` TEXT, `playbackErrorMessage` TEXT, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "callerName",
+            "columnName": "callerName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "callerNumber",
+            "columnName": "callerNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sceneId",
+            "columnName": "sceneId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "summary",
+            "columnName": "summary",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "structuredResultJson",
+            "columnName": "structuredResultJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "transcriptJson",
+            "columnName": "transcriptJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "audioPath",
+            "columnName": "audioPath",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "startedAtMillis",
+            "columnName": "startedAtMillis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "endedAtMillis",
+            "columnName": "endedAtMillis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "inputMode",
+            "columnName": "inputMode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recognitionFailed",
+            "columnName": "recognitionFailed",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "takeoverRequested",
+            "columnName": "takeoverRequested",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recordingIntegrity",
+            "columnName": "recordingIntegrity",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'LEGACY_UNVERIFIED'"
+          },
+          {
+            "fieldPath": "recordingErrorCode",
+            "columnName": "recordingErrorCode",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "recordingErrorMessage",
+            "columnName": "recordingErrorMessage",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "playbackErrorCode",
+            "columnName": "playbackErrorCode",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "playbackErrorMessage",
+            "columnName": "playbackErrorMessage",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'c0df4290bfd47a3f0096a14241cf0b6e')"
+    ]
+  }
+}

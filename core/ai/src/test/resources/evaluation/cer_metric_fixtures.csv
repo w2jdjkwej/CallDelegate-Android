@@ -1,0 +1,9 @@
+id,reference,hypothesis,expected_reference_characters,expected_edit_distance,expected_rate
+exact,你好世界,你好世界,4,0,0.0
+substitution,你好世界,你号世界,4,1,0.25
+insertion,你好,你们好,2,1,0.5
+deletion,你好世界,你好世,4,1,0.25
+punctuation,你好，世界！,你好世界,4,0,0.0
+whitespace,你 好,你好,2,0,0.0
+empty_reference,,你好,0,2,
+both_empty,,,0,0,
