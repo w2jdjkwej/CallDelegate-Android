@@ -2,11 +2,7 @@
 
 CallDelegate 是一个面向 Android 12 及以上系统的本地优先智能通话代接原型。项目使用 Kotlin 和 Jetpack Compose，包含音频采集、能量 VAD、Vosk 普通话 ASR、规则 NLU、JSON 对话状态机、sherpa-onnx VITS TTS、Room 本地记录以及设备适配代码。
 
-本仓库是**仅源码快照**。为了控制仓库体积并避免重新分发第三方二进制，语音模型、AAR、APK、录音、设备日志和历史测试产物均未提交。
-
-> 项目仍处于原型阶段。代码存在不等于真实运营商通话能力已经在所有设备上可用，尤其是 SIM 通话录音、远端音频捕获和 TTS 上行注入能力。
-
-## 主要能力
+## 主要部分
 
 - Kotlin、Jetpack Compose、Hilt、Coroutines 和 StateFlow；
 - 多模块 Clean Architecture，UI 通过领域接口访问实现；
@@ -69,7 +65,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\setup_sherpa_aar.ps1
 .\gradlew.bat :app:assembleDebug
 ```
 
-没有安装模型资源时，源码仍可编译，但真实 ASR/TTS 链路不能正常运行。完整运行前请继续按照 [本地资源准备](docs/LOCAL_ASSETS.md) 放置模型。
+没有安装模型资源时，源码仍可编译，但真实 ASR/TTS 链路不能正常运行。完整运行前继续按照 [本地资源准备](docs/LOCAL_ASSETS.md) 放置模型。
 
 ## 测试
 
